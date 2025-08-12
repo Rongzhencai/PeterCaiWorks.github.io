@@ -1,0 +1,30 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #2a2b3d;   
+  color: #f2f4f8;
+  line-height: 1.9;
+  letter-spacing: 0.01em;
+  font-size: 1.08em;
+}
+
+.storycontent {
+  max-width: 760px;
+  margin: 3.2em auto;
+  padding: 2.6em 2.8em 2.2em 2.4em;
+  background: rgba(255,255,255,0.06);
+  border-radius: 20px;
+  box-shadow: 0 16px 48px rgba(37,102,214,0.13), 0 2px 8px rgba(0,0,0,0.10);
+  position: relative;
+  border-left: 6px solid rgba(37,102,214,0.18);
+  border-right: none;
+  border-top: none;
+  border-bottom: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1.3em;
+}
+
+
+

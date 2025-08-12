@@ -1,0 +1,132 @@
+.technology {
+  background: none;
+  border-radius: 0;
+  box-shadow: none;
+  max-width: 100vw;
+  margin: 0 auto 0 auto;
+  padding: 0;
+  backdrop-filter: none;
+  text-align: left;
+  display: block;
+  gap: 0;
+}
+.techtitle {
+  color: #234;
+  font-size: 2.3em;
+  font-weight: 800;
+  margin-bottom: 0.7em;
+  letter-spacing: 0.5px;
+  text-align: center;
+  text-shadow: 0 2px 12px rgba(80,120,200,0.04);
+}
+
+.techvideo {
+  background: #fff;
+  border-radius: 16px;
+  padding: 1.2em 1.2em 1.2em 1.2em;
+  max-width: 720px;
+  margin: 0 auto 2.2em auto;
+  box-shadow: 0 4px 24px rgba(60,90,160,0.10);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.techvideo video {
+  width: 100%;
+  aspect-ratio: 16/9;
+  border-radius: 12px;
+  background: #eaf2fb;
+  box-shadow: 0 2px 12px rgba(80,120,200,0.08);
+  object-fit: cover;
+  margin-bottom: 1em;
+}
+.videocaption {
+  color: #567;
+  font-size: 1em;
+  margin-top: 0.2em;
+  text-align: center;
+  opacity: 0.85;
+}
+.featurelist {
+  display: flex;
+  flex-direction: column;
+  gap: 1.3em;
+  max-width: 720px;
+  margin: 2.5em auto 0 auto;
+  padding: 0;
+}
+.featureitem {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.1em;
+  background: #f3f6fd;
+  border-radius: 14px;
+  padding: 1.1em 1.3em;
+  box-shadow: 0 1px 8px rgba(60,90,160,0.07);
+  text-align: left;
+}
+.icon {
+  width: 40px; height: 40px; flex-shrink: 0;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 1.5em; color: #2566d6;
+  background: #eaf2fb;
+  border-radius: 20px;
+  box-shadow: 0 1px 6px rgba(37,102,214,0.06);
+}
+.feattitle {
+  color: #2566d6;
+  font-weight: 700;
+  font-size: 1.13em;
+  margin-bottom: .18em;
+}
+.feattext {
+  color: #345;
+  font-size: 1em;
+  line-height: 1.7;
+}
+.introbox {
+  background: #fff;
+  border-radius: 18px;
+  box-shadow: 0 8px 32px rgba(60,90,160,0.13);
+  max-width: 980px;
+  margin: 2.5em auto 2.2em auto;
+  padding: 2.8em 3.2em 2.5em 3.2em;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.introbox .techtitle {
+  color: #234;
+  text-align: center;
+  margin-bottom: 0.7em;
+  font-size: 2.1em;
+  letter-spacing: 0.04em;
+  font-weight: 800;
+  transition: color 0.18s;
+}
+
+.introbox p {
+  color: #345;
+  font-size: 1.18em;
+  line-height: 1.85;
+  margin-bottom: 0;
+  max-width: 850px;
+  text-align: center;
+  letter-spacing: 0.01em;
+  transition: color 0.18s;
+}
+
+.introimg {
+  width: 100%;
+  max-width: 720px;
+  aspect-ratio: 16/9;
+  border-radius: 14px;
+  background: #eaf2fb;
+  box-shadow: 0 4px 18px rgba(80,120,200,0.10);
+  object-fit: cover;
+  margin: 2em auto 0 auto;
+  display: block;
+}

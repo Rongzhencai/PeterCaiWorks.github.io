@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!--
+Reference list:
+
+Li, J. and Washington, P. (2024) ‘A comparison of personalized and generalized approaches to emotion recognition using consumer wearable devices: Machine learning study’, JMIR AI, 3, e52171. doi:10.2196/52171.  
+
+Quiroz, J.C., Geangu, E. and Yong, M.H. (2018) ‘Emotion recognition using smart watch sensor data: Mixed-design study’, JMIR Mental Health, 5(3), e10153. doi:10.2196/10153.  
+
+Saganowski, S., Perz, B., Polak, A.G. and Kazienko, P. (2023) ‘Emotion recognition for everyday life using physiological signals from wearables: A systematic literature review’, IEEE Transactions on Affective Computing, 14(3), pp. 1876–1897.  
+
+Schmidt, P., Reiss, A., Duerichen, R. and Van Laerhoven, K. (2018) ‘Wearable affect and stress recognition: A review’, arXiv [Preprint], arXiv:1811.08854. Available at: https://arxiv.org/abs/1811.08854 (Accessed: 10 Aug 2025).   
+
+Wang, Z., Yu, Z., Zhao, B., Guo, B., Chen, C. and Yu, Z. (2020) ‘EmotionSense: An adaptive emotion recognition system based on wearable smart devices’, ACM Transactions on Computing for Healthcare, 1(4), Article 20. doi: 10.1145/3384394.
+-->
+
+<meta charset="UNSW">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Assessment 3: Interactive Speculative Fiction</title>
+<link rel="stylesheet" href="style.css">
+<script src="java.js"></script>
+</head>
+
+
+<body>
+  <nav class="DH">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="Technology.html">Technology</a></li>
+      <li><a href="Community.html">Community</a></li>
+    </ul>
+  </nav>
+
+
+  <div class="pagewrapper">
+
+    <div class="left">
+      <span id="text2" class="emotiontoggle">
+        <span class="status-indicator"></span> 
+        Emotion Filter: <span class="status-text">
+          OFF
+        </span><br>
+      </span>
+
+    
+      <div id="text">
+      <div class="bigtitle">
+        <h1>Emotion Regulation Assistant: Take Back Control of Your Mind</h1>
+        <p id="changeHeading1" onclick="changeHeading1()">
+          A speculative AI system that filters harmful words and emotional noise in a hyper-connected world.
+       </p>
+      </div>
+
+          <div class="asd">
+            <div class="group">
+              <button onclick="location.href='pricing.html'" class="primarybtn">
+                <span class="btntext">Learn More</span>
+             
+              </button>
+            </div>
+          </div>
+        </div>
+    </div>
+
+  
+
+<div class="container">
+  <div class="title">Welcome back, Jake!</div>
+  <div class="statusBox">
+    <div class="statusLine">Current emotional status: <span class="statusValue">Moderate fluctuation</span></div>
+    <div class="statusLine">Average heart rate: <span class="statusValue">87 bpm</span></div>
+  </div>
+  <div class="filterLevelSection">
+    <div class="filterLevelLabel">Select filter level:</div>
+    <div class="filterLevelButtons">
+      <button class="filterLevel">Soft</button>
+      <button class="filterLevel">Moderate</button>
+      <button class="filterLevel">Max</button>
+    </div>
+  </div>
+  <button class="startButton">&#9654; Start Emotion Filter</button>
+  <div class="tagline">Filtering noise, so you can be heard.</div>
+</div>
+
+  </div>
+
+
+  
+  <div class="storycontainer">
+  <div class="storysection">
+    <h2 class="storytitle">Why It Matters</h2>
+    <p class="storytext">
+       <span class="storyicon">🗣️</span>
+      Every day on his way home, Jake passes by a rest area in front of the apartment building. There are usually a few retired seniors chatting there (open zone). This group of people gathers there almost every afternoon to share their views on social issues and daily life. Their discussions are often heated and accompanied by arguments. For them, talking is not only a form of daily lively communication but also a form of critical participation. They are accustomed to expressing their views on social phenomena directly, unafraid of controversy, and not shying away from conflict. The most notable is Mr. Wu, who is present every day. He speaks directly and loudly, often taking the lead in discussing news commentary, policy trends, and social issues.
+    </p>
+    
+    <p class="storytext">
+      <span class="storyicon">🎧</span>
+      For Jake, such sounds and images should not appear in his after-work world. His Bluetooth Emotional Purification headset automatically identifies content with high emotional fluctuations, reducing these sounds to the level of background noise and retaining only calm music to accompany him. On the visual side, the system slightly blurs intense movements or exaggerated expressions, making the scene appear more peaceful. Over time, he no longer looks at that area, seeing it simply as a small open zone without emotional purification.
+    </p>
+  </div>
+  
+  <div class="storyimage">
+    <img src="images/image 1.jpg" alt="Jake with Emotion Filter On">
+    <div class="audiobox">
+      <div class="audiotitle">Now Playing: Calming Filtered Sound</div>
+      <div class="audiowave"></div>
+      <audio controls autoplay loop>
+        <source src="sound/Self make music.m4a" type="audio/mp4">
+        Your browser does not support the audio element.
+      </audio>
+      <div class="audiotext">Jake's Gentle background music for emotional purification</div>
+    </div>
+  </div>
+</div>
+
+
+<div class="logcolumn">
+  <div class="emolog">
+    <div class="logtitle">Emotion Log</div>
+    <div class="loglist">
+      <div class="d">
+        <span class="logtime">7:20</span>
+        <span class="logtext"><b>Detected sentence:</b> you are failure</span>
+        <span class="logaction">content suppressed</span>
+        <span class="tag levelhigh">High</span>
+        <button class="secondarybtn" onclick="toggleDetail(this)">View details</button>
+        <div class="detail">System blocked a strong emotional trigger to prevent distress escalation.</div>
+      </div>
+      <div class="d">
+        <span class="logtime">7:40</span>
+        <span class="logtext"><b>Detected external mobile phone speaker sound</b></span>
+        <span class="logaction">rephrased</span>
+        <span class="tag levellow">Low</span>
+        <button class="secondarybtn" onclick="toggleDetail(this)">View details</button>
+        <div class="detail">Replace it with gentle and natural music.</div>
+      </div>
+      <div class="d">
+
+        <span class="logtime">7:50</span>
+        <span class="logtext"><b>Detected emoji:</b> angry</span>
+        <span class="logaction">flagged</span>
+        <span class="tag levelmedium">medium</span>
+        <button class="secondarybtn" onclick="toggleDetail(this)">View details</button>
+        <div class="detail">Marked for review due to signs of rising frustration.</div>
+      </div>
+
+      <div class="d">
+        <span class="logtime">8:10</span>
+        <span class="logtext"><b>Detected word:</b> hopeless</span>
+        <span class="logaction">content suppressed</span>
+        <span class="tag levelhigh">High</span>
+        <button class="secondarybtn" onclick="toggleDetail(this)">View details</button>
+        <div class="detail">Term removed to avoid emotional shutdown.</div>
+      </div>
+
+      <div class="d">
+        <span class="logtime">8:30</span>
+        <span class="logtext"><b>Detected phrase:</b> not good enough</span>
+        <span class="logaction">rephrased</span>
+        <span class="tag levelmedium">Medium</span>
+        <button class="secondarybtn" onclick="toggleDetail(this)">View details</button>
+        <div class="detail">Tone adjusted for reduced emotional intensity.</div>
+      </div>
+
+    
+      <div class="d">
+        <span class="logtime">9:00</span>
+        <span class="logtext"><b>Detected worried expression</b></span>
+        <span class="logaction">flagged</span>
+        <span class="tag levellow">Low</span>
+        <button class="secondarybtn" onclick="toggleDetail(this)">View details</button>
+        <div class="detail">Checked due to slight signs of stress.</div>
+      </div>
+    </div>
+
+    <div class="logdisclaimer">
+      This log is automatically generated. For your peace of mind, some records may be incomplete.
+    </div>
+  </div>
+
+  <div class="storybox">
+    <div class="storytitle">System Maintenance Record</div>
+    <div class="storywarning">⚠️ Emotion filter maintenance from 09:00 to 23:59. Some data not recorded.</div>
+    <div class="gapsummary">
+      <div><b>🛠️ Affected:</b> Emotion Detection / Audio Filtering / Expression Analysis</div>
+    </div>
+    <div class="storypreview">
+      During the maintenance period, the filter went offline for scheduled maintenance. 
+    </div>
+   <a href="javascript:void(0);" class="morelink" onclick="mypopup()">Read more</a>
+
+  </div>
+</div>
+
+
+<div class="timeline">
+  <div class="dot">
+    <div class="time">17:00</div>
+    <div class="circle"></div>
+    <div class="label">Filter off work · maintenance</div>
+  </div>
+  <div class="dot">
+    <div class="time">18:00</div>
+    <div class="circle"></div>
+    <div class="label">Unfiltered city noise on commute</div>
+  </div>
+  <div class="dot">
+    <div class="time">18:50</div>
+    <div class="circle"></div>
+    <div class="label">Pass open zone · meet Mr. Wu</div>
+  </div>
+  <div class="dot">
+    <div class="time">18:55</div>
+    <div class="circle"></div>
+    <div class="label">Mr. Wu’s confrontation</div>
+  </div>
+  <div class="dot">
+    <div class="time">24:00</div>
+    <div class="circle"></div>
+    <div class="label">Service resumes</div>
+  </div>
+</div>
+
+
+
+
+<div class="fullstorysection">
+  <h2 class="fullstorytitle">Unfiltered</h2>
+  <div class="fullstoryimages">
+    <img src="images/image 2.jpg" alt="Scene image 2" class="fullstoryimg">
+    <img src="images/image 3.jpg" alt="Scene image 3" class="fullstoryimg">
+  </div>
+  <div class="fullstorytext">
+    Jake stood still, his heart racing. He couldn't figure out whether that remark was aimed at him, but his nerves were already stretched to the limit. He subconsciously touched Bluetooth Emotional Purification headset and pressed the function bar on the frame of his glasses, as if doing that would miraculously restore the system, but nothing happened. At that moment, Jake abruptly lost emotional control. All the frustration, silence, and repression he had felt throughout the day poured out like an uncontrollable tide after he said those words. “What do you know? You don't have to work overtime every day, you don't have to worry about what your clients think, and you don't have to worry about getting fired!” His voice trembled and his eyes reddened.
+    <br><br>
+
+    “I just don't want to be crushed by these voices anymore!” The air fell silent for a few seconds. The elderly people stopped talking and turned to look at him. Some frowned, while others looked surprised. After a few seconds of silence, Mr. Wu calmly replied, "I understand what you just said. Young people indeed carry more invisible pressures than our generation. "But have you ever considered that the voices you're trying so hard to block out are actually a genuine part of this world? If we see every differing opinion as an attack and every emotional reaction as a burden, we'll slowly lose touch with the world’s true face and maybe even grow afraid to face it."
+
+    <br><br>
+     Jake didn't respond, just lowered his head. He knew Mr. Wu wasn't entirely wrong, but accepting it wouldn't be easy for him. He realised perhaps this was the generational gap between them. Older people were accustomed to facing the conflicts and complexities of reality, participating in society through direct speech, and expressing their views. However, their generation, having been subjected to workplace pressures and a high intensity pace of life for a long time, was more likely to rely on emotional purification techniques to wrap and isolate their emotions. Before leaving, he glanced at Mr. Wu and gave a slight nod, both as a thanks and a farewell. He turned and walked toward the apartment building, his steps slow. Without the effect of the emotion filter, the real sounds remained vivid. A child was talking in the hallway, someone was speaking softly on the phone about work, and there was the sound of a TV program. Normally, he would have found these noises annoying, but now he didn't instinctively cover his ears. Perhaps the system would be restored soon, and he would be able to return to his familiar emotional purification lifestyle. But tonight, even if only for one night, he decided to listen to these unprocessed sounds and treat them as an experience rather than a burden.
+  </div>
+</div>
+  
+  
+  
+  
+  
+  </div>
+</div>
+
+
+
+
+
+</body>
+</html>
+
+
